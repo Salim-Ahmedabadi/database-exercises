@@ -23,8 +23,8 @@ values ('Michael Jackson', 'Thriller', 1982, 'Pop, Rock, R&B', 47.3),
        ('The Beatles', '1', 2000, 'Rock', 22.6),
        ('Michael Jackson', 'Dangerous', 1991, 'Rock, Funk, Pop', 16.3),
        ('Madonna', 'The Immaculate Collection', 1990, 'Pop, Dance', 19.4),
-       ('The Beatles', 'Abbey Road', 1969, 'Rock', 14.4);
-        ('Bruce Springsteen', 'Born in the U.S.A', 1984, 'Rock', 19.6);
-        ('Dire Straits', 'Brothers in Arms', 1985, 'Rock,Pop', 17.7);
+       ('The Beatles', 'Abbey Road', 1969, 'Rock', 14.4),
+        ('Bruce Springsteen', 'Born in the U.S.A', 1984, 'Rock', 19.6),
+        ('Dire Straits', 'Brothers in Arms', 1985, 'Rock,Pop', 17.7),
         ('James Horner', 'Titanic: Music from the Motion Picture', 1997, 'Soundtrack', 18.1);
 
