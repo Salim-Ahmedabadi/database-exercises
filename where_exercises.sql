@@ -31,22 +31,7 @@ Where last_name
     like 'e%'
   AND '%e';
 
-SELECT first_name, last_name
-FROM employees
-Where last_name
-    like '%q%'
-  AND NOT '%qu%';
 
-
-
-
-
-
-
-
-
-
-
-
--- 5.
-SELECT * FROM employees WHERE last_name LIKE '%q%' AND last_name NOT LIKE '%qu%';
+SELECT * FROM employees
+WHERE last_name
+LIKE '%q%' AND last_name NOT LIKE '%qu%';
