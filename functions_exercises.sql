@@ -18,4 +18,11 @@ WHERE hire_date like '199%'
   AND birth_date like '%-12-25'
 ORDER BY birth_date ASC, hire_date DESC;
 
+SELECT CONCAT(first_name, ' ', last_name) AS 'Employee Name', DATEDIFF(NOW(), hire_date) AS 'Days Worked'
+FROM employees
+WHERE year(hire_date) BETWEEN 1990 AND 1999
+  AND day(birth_date) = 25
+  AND month(birth_date) = 12
+    LIMIT 50;
+
 
